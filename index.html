@@ -3,29 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfólio - Web Developer</title>
+  <title>Portfólio - Teobaldo Ribeiro</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
     <h1>Teobaldo Ribeiro</h1>
     <p>Desenvolvedor Web</p>
-    <nav>
-      <button onclick="showSection('sobre')">Sobre</button>
-      <button onclick="showSection('projetos')">Projetos</button>
-      <button onclick="showSection('contato')">Contato</button>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#sobre" onclick="showSection('sobre')">Sobre</a></li>
+        <li><a href="#projetos" onclick="showSection('projetos')">Projetos</a></li>
+        <li><a href="#contato" onclick="showSection('contato')">Contato</a></li>
+        <li><a href="#links-uteis" onclick="showSection('links-uteis')">Links</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <section id="sobre" class="section active">
       <h2>Sobre Mim</h2>
-      <p>Olá! Meu nome é Teobaldo, sou devolper web com foco em criar soluções digitais modernas, funcionais e responsivas. Tenho paixão por tecnologia, design limpo e por transformar ideias em aplicações reais.
-
-Comecei minha jornada na programação por curiosidade, e ao longo do tempo fui me especializando em desenvolvimento web, tanto no front-end quanto no back-end. Trabalho com tecnologias como HTML, CSS, JavaScript, React, Node.js, e MongoDB, sempre buscando aprender e evoluir.
-
-Sou comprometido com boas práticas de código, performance e experiência do usuário. Acredito que a tecnologia pode mudar o mundo, e quero fazer parte disso construindo produtos que realmente façam a diferença.
- </p>
+      <p>Olá! Meu nome é Teobaldo, sou desenvolvedor web com foco em criar soluções digitais modernas, funcionais e responsivas. Tenho paixão por tecnologia, design limpo e por transformar ideias em aplicações reais.</p>
+      <p>Trabalho com HTML, CSS, JavaScript, React, Node.js e MongoDB, sempre buscando evoluir e entregar boas práticas de código e experiência do usuário.</p>
     </section>
 
     <section id="projetos" class="section">
@@ -39,28 +38,19 @@ Sou comprometido com boas práticas de código, performance e experiência do us
 
     <section id="contato" class="section">
       <h2>Contato</h2>
-      <table style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
-  <tr>
-    <td>
-      <strong style="font-size: 16px;">Teobaldo Ribeiro</strong><br>
-      <br>
-      
-
-      📞 (79) 81354742<br>
-      📧 <a href="mailto:teobaldo@gmail.com" style="color: #333;">teobaldo@gmail.com</a><br>
-      
-
-      <!-- Botão de WhatsApp com ícone embutido -->
-      <a href="https://wa.me/5579999999999?text=Olá%20Teobaldo,%20gostaria%20de%20falar%20com%20você!" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; background-color: #25D366; color: white; padding: 10px 16px; border-radius: 30px; font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; box-shadow: 0 2px 5px rgba(0,0,0,0.2); cursor: pointer;">
-          <img src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZmIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBkPSJNNDMuNTYgNi40NEMzOS4wMiAxLjg5IDMyLjg5IDAgMjYuMjIgMCAxMi4zMyAwIDAgMTEuODUgMCAyNi4yMmMwIDQuNjIgMS4yMiA5LjE1IDMuNTYgMTMuMTVsLTMuNzEgMTMuNTMgMTMuODctMy42MmMuMDguMDIgLjE2LjAzLjI0LjAzLjYxIDAgMS4yMi0uMDIgMS44Mi0uMDYgNC4zMiAyLjg4IDkuMzMgNC40MiAxNC4zNSA0LjQyIDEzLjg4IDAgMjYuMjItMTEuODUgMjYuMjItMjYuMjIgMC02LjY3LTEuODktMTIuOC02LjQ0LTE3LjM2ek0yNi4yMiA0Mi4yMmMtNC4zMiAwLTguNTMtMS4yMi0xMi4xNi0zLjU2bC0uODctLjUybC04LjIzIDIuMTcgMi4xNy04LjAzLS41Mi0uODdjLTIuMzQtMy42My0zLjU2LTcuODQtMy41Ni0xMi4xNiAwLTEzLjA3IDEwLjY1LTIzLjcyIDIzLjcyLTIzLjcyIDYuMzUgMCAxMi4zOCAyLjQ3IDE2Ljg5IDYuOTggNC41MSA0LjUxIDYuOTggMTAuNTQgNi45OCAxNi44OSAwIDEzLjA3LTEwLjY1IDIzLjcyLTIzLjcyIDIzLjcyek0zNC4zMiAzMC4xN2MtLjU5LS4zLS0zLjQ5LTEuNzItNC4wNC0xLjkyLS41NC0uMi0uOTQtLjMtMS4zNC4zLS40MS43LS01LjQyIDYuNjUtNS45MiA3LjE1LS41LjUtMS4wMS45LTEuODIuMy0uODItLjYtMy4xNC0xLjE2LTYuMDEtMy45Mi0yLjYtMi42LTMuNzItNS4zNC00LjE1
+      <p><strong>Teobaldo Ribeiro</strong></p>
+      <p>📞 (79) 81354742</p>
+      <p>📧 <a href="mailto:teobaldo@gmail.com">teobaldo@gmail.com</a></p>
+      <a href="https://wa.me/5579981354742?text=Olá%20Teobaldo,%20gostaria%20de%20falar%20com%20você!" target="_blank" class="whatsapp-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="icon"> WhatsApp
+      </a>
     </section>
 
     <section id="links-uteis" class="section">
       <h2>Meus Links</h2>
       <div class="link-buttons">
         <a href="https://github.com/teobaldo" target="_blank">GitHub</a>
-        <a href="mailto:teobaldo@email.com">E-mail</a>
+        <a href="mailto:teobaldo@gmail.com">E-mail</a>
       </div>
     </section>
   </main>
